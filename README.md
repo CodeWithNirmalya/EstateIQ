@@ -63,6 +63,34 @@ EstateIQ is a professionally designed house price prediction system powered by *
 ## 🗂️ Project Structure
 
 
+---
+
+# 🏠 EstateIQ — House Price Prediction Engine  
+**Multiple Linear Regression · Streamlit · Professional ML Dashboard**
+
+EstateIQ is a professionally designed house price prediction system powered by **Multiple Linear Regression**. It combines a clean synthetic (or real CSV-based) dataset, a properly trained scikit-learn model, advanced evaluation metrics, and an elegant dual-theme Streamlit interface — delivering instant market value estimates with interactive analytics.
+
+---
+
+## ✨ Highlights
+
+| Feature | Description |
+|----------|------------|
+| 🧮 Multiple Linear Regression | Predicts house prices using 3 independent variables |
+| 📊 Model Evaluation | R² Score, RMSE, MAE performance metrics |
+| 🏠 Live Price Prediction | Instant estimate based on user inputs |
+| 🔍 Feature Impact View | Coefficient visualization showing price contribution |
+| 🔥 Price Heatmap | Size × Distance interaction analysis |
+| 📈 Actual vs Predicted Chart | Model accuracy visual validation |
+| 📋 Data Explorer | Filterable dataset viewer with dynamic controls |
+| 🌗 Light / Dark Theme | Premium dual-mode UI |
+| 🎨 Professional UI | Custom CSS styling, hero cards & branded layout |
+
+---
+
+## 🗂️ Project Structure
+
+
 estateiq/
 │
 ├── 📄 house_price_app.py ← Streamlit Web Application (UI + Model)
