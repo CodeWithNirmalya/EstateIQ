@@ -1,63 +1,91 @@
-<p align="center">
-  <svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
-      </linearGradient>
-    </defs>
+🏠 EstateIQ
 
-    <rect width="900" height="220" rx="20" fill="#0f172a"/>
-    <rect x="10" y="10" width="880" height="200" rx="16" fill="url(#grad1)" opacity="0.08"/>
+HOUSE PRICE PREDICTION ENGINE
 
-    <text x="50%" y="85" text-anchor="middle"
-      font-family="Georgia, serif"
-      font-size="48"
-      fill="#ffffff"
-      font-weight="bold">
-      🏠 EstateIQ
-    </text>
+Multiple Linear Regression · Streamlit · scikit-learn · 2025
+🏠 EstateIQ – AI-Powered House Price Prediction System
 
-    <text x="50%" y="125" text-anchor="middle"
-      font-family="Courier New, monospace"
-      font-size="16"
-      fill="#cbd5e1"
-      letter-spacing="2">
-      HOUSE PRICE PREDICTION ENGINE
-    </text>
+EstateIQ is a Machine Learning-based web application that predicts house
+prices using Multiple Linear Regression.
+It combines real estate insights with predictive analytics to provide
+accurate and data-driven price estimations.
 
-    <text x="50%" y="155" text-anchor="middle"
-      font-family="Courier New, monospace"
-      font-size="14"
-      fill="#94a3b8">
-      Multiple Linear Regression · Streamlit · scikit-learn · 2025
-    </text>
-  </svg>
-</p>
+------------------------------------------------------------------------
 
----
+🚀 Project Overview
 
-# 🏠 EstateIQ — House Price Prediction Engine  
-**Multiple Linear Regression · Streamlit · Professional ML Dashboard**
+EstateIQ uses:
 
-EstateIQ is a professionally designed house price prediction system powered by **Multiple Linear Regression**. It combines a clean synthetic (or real CSV-based) dataset, a properly trained scikit-learn model, advanced evaluation metrics, and an elegant dual-theme Streamlit interface — delivering instant market value estimates with interactive analytics.
+-   📊 Multiple Linear Regression
+-   🧮 scikit-learn for model training
+-   📁 Pandas & NumPy for data processing
+-   🖥️ Streamlit for interactive web interface
 
----
+The system predicts house prices based on:
 
-## ✨ Highlights
+-   Size (sqft)
+-   Number of Bedrooms
+-   Distance from City Center (km)
 
-| Feature | Description |
-|----------|------------|
-| 🧮 Multiple Linear Regression | Predicts house prices using 3 independent variables |
-| 📊 Model Evaluation | R² Score, RMSE, MAE performance metrics |
-| 🏠 Live Price Prediction | Instant estimate based on user inputs |
-| 🔍 Feature Impact View | Coefficient visualization showing price contribution |
-| 🔥 Price Heatmap | Size × Distance interaction analysis |
-| 📈 Actual vs Predicted Chart | Model accuracy visual validation |
-| 📋 Data Explorer | Filterable dataset viewer with dynamic controls |
-| 🌗 Light / Dark Theme | Premium dual-mode UI |
-| 🎨 Professional UI | Custom CSS styling, hero cards & branded layout |
+------------------------------------------------------------------------
 
----
+📂 Project Structure
 
-## 🗂️ Project Structure
+EstateIQ/ │ ├── housing_data_500.csv ├── estateiq_model.py ├── app.py
+└── README.md
+
+------------------------------------------------------------------------
+
+🧠 Machine Learning Model
+
+The project uses:
+
+-   Train-Test Split (80/20)
+-   LinearRegression from sklearn
+-   Model Evaluation Metrics:
+    -   R² Score
+    -   Mean Squared Error
+    -   Coefficients & Intercept
+
+------------------------------------------------------------------------
+
+💻 How to Run the Project
+
+▶️ Run Streamlit App
+
+streamlit run app.py
+
+▶️ Run CLI Version
+
+python estateiq_model.py
+
+------------------------------------------------------------------------
+
+📊 Features
+
+✔ Real-time house price prediction
+✔ Clean and professional Streamlit UI
+✔ Trained on structured housing dataset
+✔ Manual user input support
+✔ Proper evaluation metrics
+
+------------------------------------------------------------------------
+
+🌟 Future Improvements
+
+-   Add feature scaling
+-   Add model comparison (Ridge/Lasso)
+-   Deploy on Streamlit Cloud
+-   Add location-based visualization
+
+------------------------------------------------------------------------
+
+👨‍💻 Author
+
+Developed by Nirmalya Raja
+AI & Machine Learning Enthusiast
+2025
+
+------------------------------------------------------------------------
+
+⭐ If you like this project, consider giving it a star on GitHub!
